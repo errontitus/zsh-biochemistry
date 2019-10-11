@@ -1,0 +1,11 @@
+#!/bin/zsh
+#
+# Copy this file to ~/.zprofile
+
+PROFILE=~/Dropbox/SharedConfiguration/zprofile.zsh
+if [[ -e $PROFILE ]]; then
+  echo "Loading profile..."
+  source $PROFILE
+else
+  echo "Failed to find your profile."
+fi
