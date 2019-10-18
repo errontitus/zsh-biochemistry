@@ -26,7 +26,7 @@ source /Applications/phenix-1.15.2-3472/phenix_env.sh
 export AMBERHOME=/Users/errontitus/Amber/amber16
 source /Users/errontitus/Amber/amber16/amber.sh
 
-# Modeller installation
+# Modeller installation. Keeping this in an env variable makes installation easier.
 export KEY_MODELLER="MODELIRANJE"
 
 # Rosetta
